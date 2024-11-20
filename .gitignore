@@ -1,2 +1,4 @@
 build*
 mymacro*
+*.root
+rdecay01
