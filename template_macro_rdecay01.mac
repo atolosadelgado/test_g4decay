@@ -6,6 +6,8 @@
 #
 /gun/particle ion
 /gun/ion input_z input_a
+
+/process/had/rdm/nucleusLimits input_a input_a input_z input_z
 #
 /tracking/verbose 2
 /run/beamOn 1
