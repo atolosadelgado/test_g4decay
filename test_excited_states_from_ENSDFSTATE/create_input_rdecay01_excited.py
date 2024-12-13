@@ -73,7 +73,7 @@ def read_ensdfstate(file_path):
                 dipole_moment = float(tokens[6])
 
                 # Generate output filename
-                output_basename = f"macro_Z{z}_A{a}_E{int(excitation_energy)}keV_flb{flb}"
+                output_basename = f"macro_Z{z}_A{a}_E{excitation_energy}keV_flb{flb}"
                 output_filename = f"{macrodir}/{output_basename}.mac"
                 check_file = os.path.isfile(output_filename)
                 if check_file:
